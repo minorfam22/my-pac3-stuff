@@ -1,0 +1,269 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1572",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Microwave_01",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -3.92523e-17, 0.707107, -1.17757e-16, -0.707107 ]
+    },
+    {
+      "name" : "pelvis",
+      "children" : [ 3, 7, 11, 18 ],
+      "translation" : [ -0.0211054, 0.288209, -8.60755e-17 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "Thigh_L",
+      "children" : [ 4 ],
+      "translation" : [ 0.00202773, -0.0125531, -0.107887 ],
+      "rotation" : [ 0.994757, 0.102117, 0.000569047, 0.00554328 ]
+    },
+    {
+      "name" : "Calf_L",
+      "children" : [ 5 ],
+      "translation" : [ 3.41949e-16, 0.457001, -8.34888e-16 ],
+      "rotation" : [ 0.0202175, 0.0025439, 0.259811, 0.965444 ]
+    },
+    {
+      "name" : "Foot_L",
+      "children" : [ 6 ],
+      "translation" : [ 2.13163e-16, 0.464067, 1.06581e-16 ],
+      "rotation" : [ -0.0127699, -0.0085445, -0.555997, 0.831042 ]
+    },
+    {
+      "name" : "Toe_L",
+      "translation" : [ 1.42109e-16, 0.120646, -1.77636e-17 ],
+      "rotation" : [ 1.58819e-22, 5.29396e-23, 2.77556e-17, 1 ]
+    },
+    {
+      "name" : "Thigh_R",
+      "children" : [ 8 ],
+      "translation" : [ 0.00202773, -0.0125531, 0.107887 ],
+      "rotation" : [ 0.994749, 0.102305, -0.000298542, -0.00290284 ]
+    },
+    {
+      "name" : "Calf_R",
+      "children" : [ 9 ],
+      "translation" : [ 1.12799e-15, 0.457001, -7.10543e-17 ],
+      "rotation" : [ -0.015129, -0.00255824, 0.260157, 0.965444 ]
+    },
+    {
+      "name" : "Foot_R",
+      "children" : [ 10 ],
+      "translation" : [ 1.08358e-14, 0.464067, 3.4235e-08 ],
+      "rotation" : [ 0.0105957, 0.00709253, -0.55616, 0.830977 ]
+    },
+    {
+      "name" : "Toe_R",
+      "translation" : [ 3.90347e-10, 0.120646, -1.31402e-10 ],
+      "rotation" : [ -1.03504e-24, -3.72913e-08, 2.77556e-17, 1 ]
+    },
+    {
+      "name" : "Cable_01",
+      "children" : [ 12 ],
+      "translation" : [ -0.157017, 0.233451, -0.169274 ],
+      "rotation" : [ -6.12323e-17, 6.12323e-17, -1, 6.12323e-17 ]
+    },
+    {
+      "name" : "Cable_02",
+      "children" : [ 13 ],
+      "translation" : [ 0, 0.0930319, -1.06581e-16 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "Cable_03",
+      "children" : [ 14 ],
+      "translation" : [ 7.10543e-17, 0.0929902, 1.42109e-16 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "Cable_04",
+      "children" : [ 15 ],
+      "translation" : [ 3.55271e-17, 0.0929902, -3.55271e-16 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "Cable_05",
+      "children" : [ 16 ],
+      "translation" : [ 2.13163e-16, 0.0929902, 2.4869e-16 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "Cable_06",
+      "children" : [ 17 ],
+      "translation" : [ 3.55271e-17, 0.0929902, -7.10543e-17 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "Cable_07",
+      "translation" : [ 1.42109e-16, 0.0902015, -1.77636e-16 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "door",
+      "children" : [ 19 ],
+      "translation" : [ 0.184644, 0.135022, 0.270028 ],
+      "rotation" : [ 0, 0, -0, 1 ]
+    },
+    {
+      "name" : "GrabJoint",
+      "translation" : [ 0.0280805, -0.120577, -0.349114 ],
+      "rotation" : [ 0.5, 0.5, -0.5, 0.5 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "Microwave_Mat",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "JOINTS_0" : 5,
+            "WEIGHTS_0" : 6,
+            "TEXCOORD_0" : 7
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "Microwave_01"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "Microwave_01.bin",
+      "byteLength" : 139216
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 1216
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1216,
+      "byteLength" : 17220
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 18436,
+      "byteLength" : 24156
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 42592,
+      "byteLength" : 24156
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 66748,
+      "byteLength" : 32208
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 98956,
+      "byteLength" : 16104
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 115060,
+      "byteLength" : 8052
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 123112,
+      "byteLength" : 16104
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 19,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 8610,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.280267, -0.717169, -0.192783 ],
+      "max" : [ 0.277053, 0.562649, 0.197134 ],
+      "componentType" : 5126,
+      "count" : 2013,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2013,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2013,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5123,
+      "count" : 2013,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2013,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 2013,
+      "type" : "VEC2"
+    }
+  ]
+}
